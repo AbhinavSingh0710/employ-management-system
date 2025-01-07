@@ -1,6 +1,6 @@
 import React from "react";
 
-const TaskList = () => {
+const TaskList = ({data}) => {
   return (
     <div
       id="tasklist"
